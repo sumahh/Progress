@@ -1,14 +1,29 @@
 #main-header {
-    color : blue;
+    color : white;
+    background-color : blue;
 }
 
 .week {
+    display : inline-block;
     text-align : center;
     padding-top : 50px;
-    padding-bottom : 50px;
-    padding-left : 10px;
-    padding-right : 10px;
+    padding-bottom : 80px;
+    padding-left : 50px;
+    padding-right : 50px;
     border-style : solid; 
     border-width : 2px;
     border-radius : 5px;
+    margin-right : 40px;
 }
+
+.days {
+    display : inline-block;
+    height : 100px;
+    width : 100px;
+    margin-right : 20px;
+}
+
+.days:hover {
+    background-color : green;
+}
+
